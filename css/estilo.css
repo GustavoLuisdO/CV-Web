@@ -245,7 +245,7 @@
 
 /* *** formatações gerais *** */
 body{
-    background: linear-gradient(500deg, #E3CF76, #B3A35D, #635B34, #635B34);
+    background: linear-gradient(510deg, #374747, #596A6B, #99AD99);
     color: #000;
 }
 li:hover, span:hover, p:hover, h4:hover, h5:hover{
