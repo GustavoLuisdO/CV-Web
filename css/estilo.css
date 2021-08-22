@@ -1,372 +1,115 @@
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-    /* formatações gerais */
-    h1{
-        font-size: 1.5em;
-    }
-    h2{
-        font-size: 1.5em;
-    }
-    h3{
-        font-size: 1.1em;
-    }
-     /* header */
-     header{
-         padding-top: 20px;
-     }
-     header .topo{
-        margin-top: 30px;
-    }
-
-     /* formações */
-     .formacoes{
-        margin-top: 30px;
-     }
-
-     /* section objetivo */
-     section.objetivo{
-        margin: 0 auto;
-     }
-     section.objetivo h2{
-        font-size: 1.8em;
-     }
-     section.objetivo p{
-        font-size: 1.1em;
-     }
-
-     /* section principal */
-     .principal h2{
-         font-size: 1.8em;
-     } 
-     .principal h4{
-        font-size: 1.6em;
-    } 
-
-    /* formações */
-    .formacoes{
-        margin-top: 30px;
-     }
-
-     /* cursos */
-     .cursos ul li{
-         padding: 0;
-     }
-
-     /* section recursos */
-    .recursos h4{
-       font-size: 1.5em;
-    }
-    .recursos h5{
-        font-size: 1.4em;
-    } 
-    .recursos span{
-        font-size: 1.1em;
-    }
-    .habilidades, .personalidade, .hobbies{
-        margin-top: 25px;
-    }
-
-     /* personalidade */
-    .custom-range{
-        width: 50%;
-    }
- }
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    /* formatações gerais */
-    h1{
-        font-size: 1.9em;
-    }
-    h2{
-        font-size: 1.6em;
-    }
-    h3{
-        font-size: 1.4em;
-    }
-    h4{
-        font-size: 1.4em;
-    }
-    h5{
-        font-size: 1.3em;
-    } 
-
-    /* header */
-    header{
-        padding-top: 20px;
-    }
-    header .topo{
-        margin-top: 30px;
-    }
-
-    /* section objetivo */
-    section.objetivo{
-       margin: 0 auto;
-    }
-
-    /* formações */
-    .formacoes{
-        margin-top: 30px;
-     }
-
-    /* cursos */
-    .cursos ul li{
-        padding: 0;
-    }
-
-    /* section recursos */
-    .recursos span{
-        font-size: 1.1em;
-    }
-    .habilidades, .personalidade, .hobbies{
-        margin-top: 25px;
-    }
-
-    /* personalidade */
-    .custom-range{
-        width: 50%;
-    }
- }
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    /* formatações gerais */
-    h1{
-        font-size: 2em;
-    }
-    h2{
-        font-size: 1.7em;
-    }
-    h3{
-        font-size: 1.4em;
-    }
-
-    /* header */
-     header{
-        padding-top: 5px;
-     }
-     header .topo{
-        margin-top: 35px;
-    }
-
-     /* section objetivo */
-     section.objetivo{
-        margin: 0 auto;
-        padding-top: 15px;
-     }
-     section.objetivo p{
-        font-size: 1.2em;
-     }
-
-     /* formações */
-     .formacoes{
-        margin-top: 30px;
-     }
-
-     /* cursos */
-     .cursos ul li{
-        padding: 0;
-    }
-
-    /* section recursos */
-    .habilidades, .personalidade, .hobbies{
-        margin-top: 25px;
-    }
-
-    /* personilidade */
-    .custom-range{
-        width: 40%;
-    }
- }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    /* header */
-    header .topo{
-        margin-top: 35px;
-    }
-
-    /* section objetivo */
-    .objetivo{
-        margin: 0 auto;
-    }
-
-    /* contato */
-    .contato ul li span{
-        font-size: 1em;
-    }
-
-    /* formatações */
-    .formacoes h4{
-        font-size: 1.4em;
-    }
-    .formacoes span, p{
-        font-size: 1em;
-    }
-
-    /* cursos */
-    .cursos h4{
-        font-size: 1.4em;
-    }
-    .cursos span, p{
-        font-size: 1em;
-    }
-    
-    /* personilidade */
-    .personalidade, .habilidades{
-        margin-top: -65px;
-    }
-    .personalidade{
-        margin-top: -105px;
-    }
-    .custom-range{
-        width: 80%;
-    }
- }
-
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-    /* header */
-    header .topo{
-        margin-top: 35px;
-    }
-
-    /* section recursos */
-    .personalidade, .habilidades{
-        margin-top: -65px;
-    }
-    .personalidade{
-        margin-top: -113px;
-    }
-    .custom-range{
-        width: 70%;
-    }
- }
-
-/* *** formatações gerais *** */
 body{
     background: linear-gradient(510deg, #374747, #596A6B, #99AD99);
     color: #000;
+    font-family: 'Times New Roman', Times, serif;
 }
-li:hover, span:hover, p:hover, h4:hover, h5:hover{
-    color: #DACB99;
-    text-shadow: 1px 1px 2px #A69A74;
+
+.carousel-caption{
+    background-color: transparent;
+    position: absolute;
+    width: 75%;
+    height: 88%;
+    z-index: 10;
+    padding: 15px 0;
+    text-align: initial;
+    box-shadow: 5px 5px 12px #fff;
+}
+.carousel-control-next-icon{
+    margin-left: 75px;
+}
+
+*:hover{
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    color: #000000;
     font-weight: bold;
 }
-h2:hover{
-    text-shadow: 2px 2px 2px #000;
-    font-weight: bold;
-}
-a:link, a:active, a:visited, a:hover{
-    text-decoration: none;
-    color: #000;
+
+h1{
+    font-size: 2.2em;
 }
 h2{
     font-size: 2em;
-    text-shadow: 1px 1px 2px #000;
 }
 h4{
     font-size: 1.5em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    color: #000;
 }
 h5{
     font-size: 1.2em;
-    text-shadow: 1px 1px 1px #000;
+}
+h1, h2, h3, h5, h6{
+    text-shadow: 1px 1px 2px #000;
+    color: #000;
 }
 
 span, p{
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-weight: 400;
     color: #000;
     text-shadow: 1px 1px 2px rgb(77, 77, 77);
 }
+
 hr{
     width: 220px;
-    height: 1px;
+    height: 2px;
     margin: 0;
 }
-ul li{
-    padding-bottom: 10px;
-}
+
 a:hover{
     text-decoration: none;
 }
-hr{
-    width: 220px;
-    height: 3px;
-    margin: 0;
-}
 
-/* *** header *** */
+/*** HEADER ***/
 header{
     width: 100%;
-    height: 150px;
-    background: transparent;
+    margin-top: 35px;
+}
+header h1:hover, h3:hover, time:hover{
+    color: #374747;
+    text-shadow: 2px 2px 5px #fff;
+    font-weight: bold;
+}
+.cv-pdf button a {
     color: #fff;
 }
-header .topo{
-    margin-right: 165px;
-}
-header .topo:hover{
-    color: #A69A74;
-    text-shadow: 2px 2px 2px #fff;
+.cv-pdf button a:hover {
+    color: #000;
+    text-shadow: 2px 2px 5px #fff;
 }
 
-
-/* *** section objetivo *** */
-.objetivo{
-    margin-left: 440px;
-}
-
-/* *** section principal *** */
-.principal{
-    margin-top: 50px;
-}
-
-/* *** contato *** */
-.contato li{
-    padding: 5px;
+/*** CONTATO ***/
+.contato{
     color: #000;
 }
-.contato ul li a{
+.contato ul li a {
     color: #000;
 }
-
-.contato li span{
-    font-size: 1em;
-    padding-left: 5px;
+.contato ul li i{
+    padding: 20px 10px;
 }
 
-/* *** formações *** */
-.formacoes li p{
-    padding-top: 3px;
+/*** OBJETIVO / EXPERIENCIA ***/
+.objetivo-experiencia{
+    color: #000;
+}
+.experiencia p{
+    margin-top: 10px;
 }
 
-
-/* *** cursos *** */
-.cursos ul li p{
-    padding-top: 3px;
+/*** EDUCAÇÃO ***/
+#secao-educacao{
+    padding: 20px;
+    color: #000;
+}
+.info-link, .info-link:hover{
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9em;
 }
 
-/* *** habilidades *** */
-.habilidades span{
-    text-align: center;
-    width: 120px;
-    height: 35px;
-    background: #000;
-    color: #fff;
-    text-shadow: 1px 1px 2px #faf8f8;
-    font-size: 1.1em;
-    line-height: 30px;
-    /* para versões antigas do chrome e safari */
-    -webkit-border-radius: 20px 90px;
-    /* para versões antigas do mozilla */
-    -moz-border-radius: 20px 90px;
-    /* browsers novos */
-    border-radius: 20px 20px;
-    display: inline-block;
-}
-.habilidades h4{
-    text-align: center;
-    font-size: 1.3em;
+/*** HABILIDADES ***/
+.habilidades ul li{
+    padding: 10px;
+    color: #000;
 }
