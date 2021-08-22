@@ -113,3 +113,9 @@ header h1:hover, h3:hover, time:hover{
     padding: 10px;
     color: #000;
 }
+
+/*** FOOTER ***/
+footer p {
+    font-size: 0.8em;
+    color: #000;
+}
