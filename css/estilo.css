@@ -77,6 +77,10 @@ header h1:hover, h3:hover, time:hover{
     color: #000;
     text-shadow: 2px 2px 5px #fff;
 }
+.cv-pdf button:hover{
+    background: transparent;
+    box-shadow: 2px 2px 5px #000;
+}
 
 /*** CONTATO ***/
 .contato{
