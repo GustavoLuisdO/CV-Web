@@ -1,2 +1,2 @@
 # CV Web
- Meu Curriculo Web
+ Meu Curriculo Web https://gustavoluisdo.github.io/CV-Web/
