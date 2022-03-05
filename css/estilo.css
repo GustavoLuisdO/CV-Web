@@ -1,6 +1,5 @@
 body{
-    background: linear-gradient(510deg, #83818C, #A5A8A2, #CFCFCF);
-    color: #000;
+    background: linear-gradient(510deg, #E7DDBF, #E7DDBF, #3F3A3F, #3F3A3F);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -8,10 +7,10 @@ body{
     background-color: transparent;
     position: absolute;
     width: 75%;
-    height: 88%;
+    height: 80%;
+    bottom: 3.8em;
     z-index: 10;
-    padding: 15px 0;
-    text-align: initial;
+    color: #000;
     border: none;
     border-radius: 25px;
     box-shadow: 5px 5px 20px #000;
@@ -20,109 +19,82 @@ body{
     margin-left: 75px;
 }
 
-*:hover{
-    text-shadow: 1px 1px 2px #000;
-    color: #000000;
-    font-weight: bold;
+h2 {
+    text-shadow: 2px 3px 5px #fff;
 }
 
-h1{
-    font-size: 2.2em;
-}
-h2{
-    font-size: 2em;
-}
-h4{
-    font-size: 1.5em;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+a {
     color: #000;
 }
-h5{
-    font-size: 1.2em;
-}
-h1, h2, h3, h5, h6{
-    text-shadow: 1px 1px 2px #000;
-    color: #000;
+a:hover {
+    color: #fff;
+    text-shadow: 2px 3px 5px #000;
+    text-decoration: none;
 }
 
-span, p{
-    font-size: 1.1em;
-    font-weight: 400;
-    color: #000;
-    text-shadow: 1px 1px 2px rgb(77, 77, 77);
-}
-
-hr{
-    width: 220px;
-    height: 2px;
-    margin: 0;
-}
-
-a:hover{
+abbr[data-original-title], abbr[title] {
     text-decoration: none;
 }
 
 /*** HEADER ***/
-header{
-    width: 100%;
-    margin-top: 35px;
-}
-header h1:hover, h3:hover{
-    color: #000;
-    text-shadow: 2px 2px 5px #fff;
-    font-weight: bold;
+.header{
+    margin-top: 2em;
 }
 
-.cv-pdf button a {
-    color: #fff;
-}
-.cv-pdf button{
-    border: none;
-    border-radius: 10px;
-}
-.cv-pdf button a:hover {
-    color: #fff;
-    text-shadow: 2px 2px 5px #000;
-}
-.cv-pdf button:hover{
-    background: transparent;
-    box-shadow: 2px 2px 9px #000;
+/*** SLIDE 01 ***/
+.slide01{
+    margin: 10em auto;
 }
 
-/*** CONTATO ***/
-.contato{
-    color: #000;
-}
-.contato ul li a {
-    color: #000;
-}
-.contato ul li i{
-    padding: 20px 10px;
+.slide01 p {
+    font-size: 1.3em;
 }
 
-/*** OBJETIVO / EXPERIENCIA ***/
-.objetivo-experiencia{
-    color: #000;
+ul {
+    padding: 0 1em;
+    list-style-type: circle;
 }
-.experiencia p{
+
+/*** SLIDE 02 ***/
+.slide02{
+    margin: 2em auto;
+    margin-left: 3em;
+    text-align: initial;
+}
+.slide02 p{
     margin-top: 10px;
 }
 
-/*** EDUCAÇÃO ***/
-#secao-educacao{
-    padding: 20px;
+textarea.form-control{
+    width: 95%;
     color: #000;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 20px;
 }
-.info-link, .info-link:hover{
-    color: #000;
-    text-decoration: none;
-    font-size: 0.9em;
+.form-control:disabled, .form-control[readonly]{
+    background: transparent;
 }
 
-/*** HABILIDADES ***/
-.habilidades ul li{
-    padding: 10px;
-    color: #000;
+/*** SLIDE 03 ***/
+.slide03 {
+    margin: 2em auto;
+    margin-left: 3em;
+    text-align: initial;
+}
+.cursos{
+    margin-top: 1.5em;
+}
+
+/*** SLIDE 04 ***/
+.slide04{
+    margin: 2em auto;
+    margin-left: 2.4em;
+    text-align: initial;
+}
+
+.habilidades{
+    margin-top: 1.5em;
 }
 
 /*** FOOTER ***/
