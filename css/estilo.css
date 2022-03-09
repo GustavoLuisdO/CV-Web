@@ -1,3 +1,10 @@
+@media (min-width: 1px) and (max-width: 992.98px) 
+{ 
+    .carousel-caption, .carousel-control-next, .carousel-control-prev, .carousel-indicators, .info {
+        display: none;
+    }
+}
+
 body{
     background: linear-gradient(510deg, #E7DDBF, #E7DDBF, #3F3A3F, #3F3A3F);
     font-family: 'Times New Roman', Times, serif;
@@ -17,6 +24,10 @@ body{
 }
 .carousel-control-next-icon{
     margin-left: 75px;
+}
+
+.reponsive-message {
+    margin-left: -1500px;
 }
 
 h2 {
@@ -39,6 +50,17 @@ abbr[data-original-title], abbr[title] {
 /*** HEADER ***/
 .header{
     margin-top: 2em;
+}
+
+.pdf{
+    position: fixed;
+    left: 2em;
+    top: 0;
+    z-index: 1000;
+}
+
+.btn-outline-dark{
+    border-radius: 20px;
 }
 
 /*** SLIDE 01 ***/
