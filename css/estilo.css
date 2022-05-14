@@ -1,126 +1,19 @@
-@media (min-width: 1px) and (max-width: 992.98px) 
-{ 
-    .carousel-caption, .carousel-control-next, .carousel-control-prev, .carousel-indicators, .info {
-        display: none;
-    }
+.card {
+    margin-bottom: 1.5rem;
 }
 
-body{
-    background: linear-gradient(510deg, #E7DDBF, #E7DDBF, #3F3A3F, #3F3A3F);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.carousel-caption{
-    background-color: transparent;
-    position: absolute;
-    width: 75%;
-    height: 80%;
-    bottom: 3.8em;
-    z-index: 10;
-    color: #000;
-    border: none;
-    border-radius: 25px;
-    box-shadow: 5px 5px 20px #000;
-}
-.carousel-control-next-icon{
-    margin-left: 75px;
-}
-
-.reponsive-message {
-    margin-left: -1500px;
-}
-
-h2 {
-    text-shadow: 2px 3px 5px #fff;
-}
-
-a {
-    color: #000;
-}
-a:hover {
-    color: #fff;
-    text-shadow: 2px 3px 5px #000;
-    text-decoration: none;
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
 }
 
 abbr[data-original-title], abbr[title] {
     text-decoration: none;
 }
 
-/*** HEADER ***/
-.header{
-    margin-top: 2em;
-}
-
-.pdf{
-    position: fixed;
-    left: 2em;
-    top: 0;
-    z-index: 1000;
-}
-
-.btn-outline-dark{
-    border-radius: 20px;
-}
-
-/*** SLIDE 01 ***/
-.slide01{
-    margin: 10em auto;
-}
-
-.slide01 p {
-    font-size: 1.3em;
-}
-
-ul {
-    padding: 0 1em;
-    list-style-type: circle;
-}
-
-/*** SLIDE 02 ***/
-.slide02{
-    margin: 2em auto;
-    margin-left: 3em;
-    text-align: initial;
-}
-.slide02 p{
-    margin-top: 10px;
-}
-
-textarea.form-control{
-    width: 95%;
-    color: #000;
+/* subtitulos */
+.subtitulo {
+    font-size: 1.1rem;
     font-weight: bold;
-    border: 2px solid #000;
-    border-radius: 20px;
-}
-.form-control:disabled, .form-control[readonly]{
-    background: transparent;
-}
-
-/*** SLIDE 03 ***/
-.slide03 {
-    margin: 2em auto;
-    margin-left: 3em;
-    text-align: initial;
-}
-.cursos{
-    margin-top: 1.5em;
-}
-
-/*** SLIDE 04 ***/
-.slide04{
-    margin: 2em auto;
-    margin-left: 2.4em;
-    text-align: initial;
-}
-
-.habilidades{
-    margin-top: 1.5em;
-}
-
-/*** FOOTER ***/
-footer p {
-    font-size: 0.8em;
-    color: #000;
 }
