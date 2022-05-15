@@ -1,15 +1,28 @@
+/* links */
+a {
+    color: #6c757d;
+}
+a:hover {
+    color: #6c757dd2;
+    text-decoration: none;
+}
+
+/* tag abbr */
+abbr[data-original-title], abbr[title] {
+    text-decoration: none;
+}
+
+/* cards */
 .card {
     margin-bottom: 1.5rem;
+    border: none;
 }
 
 .card-header {
+    background: rgba(0,0,0,.01);
     font-size: 1.2rem;
     font-weight: bold;
     font-style: italic;
-}
-
-abbr[data-original-title], abbr[title] {
-    text-decoration: none;
 }
 
 /* subtitulos */
