@@ -7,11 +7,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* tag abbr */
-abbr[data-original-title], abbr[title] {
-    text-decoration: none;
-}
-
 /* cards */
 .card {
     margin-bottom: 1.5rem;
