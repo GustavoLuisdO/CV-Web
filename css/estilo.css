@@ -1,10 +1,10 @@
 /* links */
 a {
     color: #6c757d;
+    text-decoration: underline;
 }
 a:hover {
     color: #6c757dd2;
-    text-decoration: none;
 }
 
 /* cards */
